@@ -1,0 +1,16 @@
+#ifndef MODE_DEFINE
+#define MODE_DEFINE
+
+const int MODE_BASIC=0;
+const int BUILDING_MODE=1;
+const int CREAT_CUBE_MODE=2;
+const int DESTRUCTED_MODE=3;
+const int SELECT_BUILDING_MODE=4;
+const int SELECT_WORKABLE_BUILDING_MODE=5;
+
+const int SELECT_CREATURE_MODE=6;
+const int SELECT_WORKER_MODE=7;
+
+
+const int SELECT_GROUP_MODE=10;
+#endif

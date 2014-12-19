@@ -1,0 +1,14 @@
+#ifndef MODE_SIGNAL_DEFINE
+#define MODE_SIGNAL_DEFINE
+const int MODE_SIG_BACK=-1;
+
+const int DP_GROUP_RECRUIT=1;
+const int DP_GROUP_UPGRADE=2;
+const int DP_GROUP_BUILDING_INFO=3;
+const int DP_GROUP_RESEARCH=4;
+
+const int DP_GROUP_PREV=100;
+const int DP_GROUP_NEXT=101;
+
+const int DP_BUILDING_RESOURCE = 200;
+#endif

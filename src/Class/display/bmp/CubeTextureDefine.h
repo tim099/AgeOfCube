@@ -1,0 +1,21 @@
+#ifndef CUBE_TEXTURE_DEFINE
+#define CUBE_TEXTURE_DEFINE
+#include "GL/freeglut.h"
+const GLuint TEXT_BASIC_CUBE_TOP=50000;
+const GLuint TEXT_BASIC_CUBE_SIDE=50001;
+
+const GLuint TEXT_DARK_CUBE_TOP=50002;
+const GLuint TEXT_DARK_CUBE_SIDE=50003;
+
+const GLuint TEXT_RED_CORE_TOP=50004;
+const GLuint TEXT_RED_CORE_SIDE=50005;
+
+const GLuint TEXT_WHITE_BRICK_TOP=50006;
+const GLuint TEXT_WHITE_BRICK_SIDE=50007;
+
+
+
+
+
+
+#endif

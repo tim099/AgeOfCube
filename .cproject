@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.exe.debug.1004640270">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.exe.debug.1004640270" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings>
+					<externalSetting/>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.exe.debug.1004640270" name="Debug" parent="cdt.managedbuild.config.gnu.mingw.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.1004640270." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.exe.debug.998795492" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.exe.debug">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.exe.debug.1035673183" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.debug"/>
+							<builder buildPath="${workspace_loc:/RTS}/Debug" id="cdt.managedbuild.tool.gnu.builder.mingw.base.1051184057" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug.1723954431" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug">
+								<option id="gnu.both.asm.option.include.paths.1698036189" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/glm}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/globalfunc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/display}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/display/objectList}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/input}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/buttonlist}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/signals}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/buttongroup}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/cube}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/building}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/player}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/building/Basic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/mode}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/Order}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/effect}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/Order/State}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/Order/State/Move}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/worker}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/worker/work}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/search}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/searchcreature}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/cube/BasicCube}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/other}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/mode/SCreatureMode}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/ExtraButton}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/Execute}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/saveload}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/Message}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.949492373" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.462907560" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.1289885268" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug">
+								<option id="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level.1328870159" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level.1053466356" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.1822789265" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/glm}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/globalfunc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/display}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/display/objectList}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/input}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/display/bmp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/buttonlist}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/signals}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/buttongroup}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/cube}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/building}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/player}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/files/obj/buildings/Basic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/building/Basic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/mode}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/Order}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/effect}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/Order/State}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/Order/State/Move}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/worker}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/worker/work}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/search}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/searchcreature}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/cube/BasicCube}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/other}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/mode/SCreatureMode}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/ExtraButton}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/Execute}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/saveload}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/Message}&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.other.other.718970374" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 " valueType="string"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.1862738418" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1067200083" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1373685154" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.mingw.exe.debug.option.optimization.level.540610745" name="Optimization Level" superClass="gnu.c.compiler.mingw.exe.debug.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.mingw.exe.debug.option.debugging.level.1756297539" name="Debug Level" superClass="gnu.c.compiler.mingw.exe.debug.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1805127964" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/glm}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/globalfunc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/display}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/display/objectList}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/input}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/display/bmp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/buttonlist}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/signals}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/buttongroup}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/cube}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/building}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/player}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/files/obj/buildings/Basic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/building/Basic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/mode}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/Order}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/effect}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/Order/State}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/Order/State/Move}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/worker}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/worker/work}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/search}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/searchcreature}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/cube/BasicCube}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/other}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/mode/SCreatureMode}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/ExtraButton}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/Execute}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/saveload}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/Message}&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.516917863" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="GXX_EXPERIMENTAL_CXX0X"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.776683912" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug.650584380" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug.512647093" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug">
+								<option id="gnu.cpp.link.option.libs.2072838522" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="glu32"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="opengl32"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="freeglut"/>
+								</option>
+								<option id="gnu.cpp.link.option.flags.779158168" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="" valueType="string"/>
+								<option id="gnu.cpp.link.option.other.1156204021" name="Other options (-Xlinker [option])" superClass="gnu.cpp.link.option.other"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1762579738" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.exe.release.1276406026">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.exe.release.1276406026" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.exe.release.1276406026" name="Release" parent="cdt.managedbuild.config.gnu.mingw.exe.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.release.1276406026." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.exe.release.588453508" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.exe.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.exe.release.1913493153" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.release"/>
+							<builder buildPath="${workspace_loc:/RTS}/Release" id="cdt.managedbuild.tool.gnu.builder.mingw.base.959266334" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release.247936260" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release">
+								<option id="gnu.both.asm.option.include.paths.1055167151" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/glm}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/globalfunc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/display}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/display/objectList}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/input}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/display/bmp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/input/button}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/buttonlist}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/signals}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/buttongroup}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/cube}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/cube}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/Building}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/building}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/player}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/files/obj/buildings/Basic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/building/Basic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/mode}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/building/StackableBuilding}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/Order}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/effect}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/Order/State}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/Order/State/Move}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/worker}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/worker/work}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/search}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/searchcreature}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/other}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/mode/SCreatureMode}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/ExtraButton}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/Execute}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/saveload}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/Message}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2054366820" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.741924131" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.442210614" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release">
+								<option id="gnu.cpp.compiler.mingw.exe.release.option.optimization.level.1316511888" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.exe.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.mingw.exe.release.option.debugging.level.1954273775" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.release.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.307388930" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/glm}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/globalfunc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/display}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/display/objectList}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/input}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/display/bmp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/input/button}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/buttonlist}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/signals}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/buttongroup}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/cube}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/cube}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/Building}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/building}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/player}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/files/obj/buildings/Basic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/building/Basic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/mode}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/building/StackableBuilding}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/Order}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/effect}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/Order/State}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/Order/State/Move}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/worker}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/worker/work}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/search}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/searchcreature}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/other}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/mode/SCreatureMode}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/ExtraButton}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/Execute}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/saveload}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/Message}&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.201508255" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="GXX_EXPERIMENTAL_CXX0X"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1061641275" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1627067445" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.mingw.exe.release.option.optimization.level.1787269228" name="Optimization Level" superClass="gnu.c.compiler.mingw.exe.release.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.mingw.exe.release.option.debugging.level.174772557" name="Debug Level" superClass="gnu.c.compiler.mingw.exe.release.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1245261988" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/glm}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/globalfunc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/display}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/display/objectList}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/input}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/display/bmp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/input/button}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/buttonlist}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/signals}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/buttongroup}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/cube}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/cube}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/Building}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/building}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/player}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/files/obj/buildings/Basic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/building/Basic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/mode}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/building/StackableBuilding}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/Order}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/effect}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/Order/State}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/Order/State/Move}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/worker}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/creature/worker/work}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/search}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/map/searchcreature}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/other}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/mode/SCreatureMode}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/ExtraButton}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/button/Execute}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/field/saveload}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTS/src/Class/Message}&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1673741000" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="GXX_EXPERIMENTAL_CXX0X"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2092464574" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release.180076292" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release.409293050" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1823868232" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="RTS.cdt.managedbuild.target.gnu.mingw.exe.988823419" name="Executable" projectType="cdt.managedbuild.target.gnu.mingw.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.1276406026;cdt.managedbuild.config.gnu.mingw.exe.release.1276406026.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1627067445;cdt.managedbuild.tool.gnu.c.compiler.input.2092464574">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.1276406026;cdt.managedbuild.config.gnu.mingw.exe.release.1276406026.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.442210614;cdt.managedbuild.tool.gnu.cpp.compiler.input.1061641275">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.1004640270;cdt.managedbuild.config.gnu.mingw.exe.debug.1004640270.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1373685154;cdt.managedbuild.tool.gnu.c.compiler.input.776683912">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.1004640270;cdt.managedbuild.config.gnu.mingw.exe.debug.1004640270.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.1289885268;cdt.managedbuild.tool.gnu.cpp.compiler.input.1067200083">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/RTS"/>
+		</configuration>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/RTS"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>

@@ -1,0 +1,8 @@
+#ifndef BUTTON_GROUP_SIGNAL_DEFINE
+#define BUTTON_GROUP_SIGNAL_DEFINE
+const int DP_GROUP_MENU=1;
+const int DP_GROUP_BUILDING=2;
+const int DP_GROUP_CUBE=3;
+const int DP_GROUP_BASIC=4;
+
+#endif
